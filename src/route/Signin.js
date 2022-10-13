@@ -6,7 +6,7 @@ function Signin() {
   return (
     <div>
       <Navbar />
-      
+      <div> Content here</div>
       <Footer />
     </div>
   )

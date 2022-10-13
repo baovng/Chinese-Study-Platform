@@ -6,7 +6,7 @@ function Course() {
   return (
     <div>
       <Navbar />
-      
+      <div style={{ "height": "40vh"}}> Content here</div>
       <Footer />
     </div>
   )
