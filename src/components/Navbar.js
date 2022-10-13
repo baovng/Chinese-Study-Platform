@@ -21,7 +21,7 @@ function Navbar() {
                 <Link  to='/signin'>Sign in</Link>
             </li>
             <li>
-                <Link  to='/createaccount'><button className='btn'>Create Account</button></Link>
+                <Link  to='/createaccount' className='btn btn-light'>Create Account</Link>
             </li>
         </ul>
         <div className="hamburger" onClick={handleClick}>
