@@ -1,15 +1,16 @@
 import React from 'react';
 import Navbaractive from '../components/Navbaractive';
-import CourseList from '../components/course-content/CourseList';
+import LessonNav from '../components/course-content/LessonNav';
 import Header from '../components/course-content/Header';
-function Course() {
+
+function Lesson() {
   return (
     <div>
       <Navbaractive />
       <Header />
-      <CourseList />
+      <LessonNav />
     </div>
   )
 }
 
-export default Course
+export default Lesson

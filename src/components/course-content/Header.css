@@ -1,0 +1,19 @@
+.hd-name{
+    height: 10vh;
+    background-color: rgb(230, 239, 245);
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px; 
+}
+.hd-name>span{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    width: 80vw;
+    max-width:1440px;
+    font-size: 1em;
+    margin: auto;
+    padding: 10px;
+    font-size: 1.2em;
+}

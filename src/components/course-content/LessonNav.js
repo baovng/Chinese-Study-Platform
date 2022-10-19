@@ -5,17 +5,17 @@ import Col from 'react-bootstrap/Col';
 import Nav from 'react-bootstrap/Nav';
 import Row from 'react-bootstrap/Row';
 import Chapter from './Chapter.js';
-import './CourseNav.css';
+import './LessonNav.css';
 
-function CourseNav() {
+function LessonNav() {
   return (
     <Tabs
-      defaultActiveKey="profile"
+      defaultActiveKey="Book"
       id="justify-tab-example"
       className="mb-3 center"
       
     >
-      <Tab className='center' eventKey="Book" title="Book">
+      <Tab className='center' eventKey="Book" title="Book" >
       <Tab.Container id="left-tabs-example" defaultActiveKey="first">
       <Row>
         <Col sm={0} className="center-book">
@@ -32,8 +32,10 @@ function CourseNav() {
           <Tab.Content>
             <Tab.Pane eventKey="first">
               <Chapter />
+              <Chapter />
             </Tab.Pane>
             <Tab.Pane eventKey="second">
+              <Chapter />
               <Chapter />
             </Tab.Pane>
           </Tab.Content>
@@ -50,8 +52,11 @@ function CourseNav() {
       <Tab className='center'eventKey="Forum" title="Forum">
         <Chapter />
       </Tab>
+      <Tab className='center'eventKey="Class" title="Class">
+        <Chapter />
+      </Tab>
     </Tabs>
   )
 }
 
-export default CourseNav
+export default LessonNav

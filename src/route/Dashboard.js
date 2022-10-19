@@ -1,15 +1,15 @@
 import React from 'react';
 import Navbaractive from '../components/Navbaractive';
-import CourseList from '../components/course-content/CourseList';
 import Header from '../components/course-content/Header';
-function Course() {
+import Classes from '../components/Classes';
+function Dashboard() {
   return (
-    <div>
+    <>
       <Navbaractive />
       <Header />
-      <CourseList />
-    </div>
+      <Classes />
+    </>
   )
 }
 
-export default Course
+export default Dashboard

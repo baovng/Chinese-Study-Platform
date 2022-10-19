@@ -5,7 +5,7 @@ function Intro() {
   return (
     <>
     <div className="intro"></div>
-    <div className="achievements"> <h1>Course recommendations</h1> </div>
+    <div className="achievements"> <h2>Course recommendations</h2> </div>
     <div className="achievements">
         
       <div className="work">
