@@ -1,13 +1,13 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
+import Navbaractive from '../components/Navbaractive';
+import CourseNav from '../components/course-content/CourseNav';
 
 function Course() {
   return (
     <div>
-      <Navbar />
-      <div style={{ "height": "40vh"}}> Content here</div>
-      <Footer />
+      <Navbaractive />
+      
+      <CourseNav />
     </div>
   )
 }

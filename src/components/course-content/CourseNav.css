@@ -1,0 +1,11 @@
+.center{
+    margin: auto;
+    width: 70vw;
+    max-width: 1440px;
+}
+.center-book{
+    margin: auto;
+    margin-top:0;
+    margin-left:-120px;
+    max-width: 1560px ;
+}

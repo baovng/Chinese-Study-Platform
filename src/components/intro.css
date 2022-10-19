@@ -17,6 +17,7 @@
     align-items: center;
     padding: 40px 80px;
     width: 70vw;
+    max-width: 1440px;
   }
 .achievements .work {
     display: flex;

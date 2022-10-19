@@ -3,4 +3,12 @@
     height: 20vh;
     margin-top: 5vh;
     background-color: #ccc;
+    position: relative;
+}
+.footer>span{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
 }
